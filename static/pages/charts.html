@@ -5,7 +5,7 @@
 	<title>Ready PRO Bootstrap 4 Admin Dashboard</title>
 	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
 	<link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon"/>
-	
+
 	<!-- Fonts and icons -->
 	<script src="../assets/js/plugin/webfont/webfont.min.js"></script>
 	<script>
@@ -21,6 +21,7 @@
 	<!-- CSS Files -->
 	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../assets/css/ready.min.css">
+
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<link rel="stylesheet" href="../assets/css/demo.css">
 </head>
@@ -103,7 +104,7 @@
 												<span class="block">
 													New user registered
 												</span>
-												<span class="time">5 minutes ago</span> 
+												<span class="time">5 minutes ago</span>
 											</div>
 										</a>
 										<a href="charts.html#">
@@ -112,18 +113,18 @@
 												<span class="block">
 													Rahmad commented on Admin
 												</span>
-												<span class="time">12 minutes ago</span> 
+												<span class="time">12 minutes ago</span>
 											</div>
 										</a>
 										<a href="charts.html#">
-											<div class="notif-img"> 
+											<div class="notif-img">
 												<img src="../assets/img/profile2.jpg" alt="Img Profile">
 											</div>
 											<div class="notif-content">
 												<span class="block">
 													Reza send messages to you
 												</span>
-												<span class="time">12 minutes ago</span> 
+												<span class="time">12 minutes ago</span>
 											</div>
 										</a>
 										<a href="charts.html#">
@@ -132,7 +133,7 @@
 												<span class="block">
 													Farrah liked Admin
 												</span>
-												<span class="time">17 minutes ago</span> 
+												<span class="time">17 minutes ago</span>
 											</div>
 										</a>
 									</div>
@@ -597,7 +598,7 @@
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 		<div class="quick-sidebar">
 			<a href="charts.html#" class="close-quick-sidebar">
@@ -1106,7 +1107,7 @@
 				}]
 			},
 			options : {
-				responsive: true, 
+				responsive: true,
 				maintainAspectRatio: false,
 				legend: {
 					position: 'bottom',
@@ -1142,7 +1143,7 @@
 				}],
 			},
 			options: {
-				responsive: true, 
+				responsive: true,
 				maintainAspectRatio: false,
 				scales: {
 					yAxes: [{
@@ -1162,10 +1163,10 @@
 					backgroundColor :["#1d7af3","#f3545d","#fdaf4b"],
 					borderWidth: 0
 				}],
-				labels: ['New Visitors', 'Subscribers', 'Active Users'] 
+				labels: ['New Visitors', 'Subscribers', 'Active Users']
 			},
 			options : {
-				responsive: true, 
+				responsive: true,
 				maintainAspectRatio: false,
 				legend: {
 					position : 'bottom',
@@ -1208,7 +1209,7 @@
 				]
 			},
 			options: {
-				responsive: true, 
+				responsive: true,
 				maintainAspectRatio: false,
 				legend : {
 					position: 'bottom'
@@ -1248,7 +1249,7 @@
 				]
 			},
 			options : {
-				responsive: true, 
+				responsive: true,
 				maintainAspectRatio: false,
 				legend : {
 					position: 'bottom'
@@ -1260,18 +1261,18 @@
 			type: 'bubble',
 			data: {
 				datasets:[{
-					label: "Car", 
-					data:[{x:25,y:17,r:25},{x:30,y:25,r:28}, {x:35,y:30,r:8}], 
+					label: "Car",
+					data:[{x:25,y:17,r:25},{x:30,y:25,r:28}, {x:35,y:30,r:8}],
 					backgroundColor:"#716aca"
 				},
 				{
-					label: "Motorcycles", 
-					data:[{x:10,y:17,r:20},{x:30,y:10,r:7}, {x:35,y:20,r:10}], 
+					label: "Motorcycles",
+					data:[{x:10,y:17,r:20},{x:30,y:10,r:7}, {x:35,y:20,r:10}],
 					backgroundColor:"#1d7af3"
 				}],
 			},
 			options: {
-				responsive: true, 
+				responsive: true,
 				maintainAspectRatio: false,
 				legend: {
 					position: 'bottom'
@@ -1337,7 +1338,7 @@
 				}]
 			},
 			options : {
-				responsive: true, 
+				responsive: true,
 				maintainAspectRatio: false,
 				legend: {
 					position: 'top',
@@ -1379,7 +1380,7 @@
 				}],
 			},
 			options: {
-				responsive: true, 
+				responsive: true,
 				maintainAspectRatio: false,
 				legend: {
 					position : 'bottom'
@@ -1467,7 +1468,7 @@
 				}]
 			},
 			options : {
-				responsive: true, 
+				responsive: true,
 				maintainAspectRatio: false,
 				legend: {
 					display: false
@@ -1508,20 +1509,20 @@
 							fontStyle: "500"
 						}
 					}]
-				}, 
-				legendCallback: function(chart) { 
-					var text = []; 
-					text.push('<ul class="' + chart.id + '-legend html-legend">'); 
-					for (var i = 0; i < chart.data.datasets.length; i++) { 
-						text.push('<li><span style="background-color:' + chart.data.datasets[i].legendColor + '"></span>'); 
-						if (chart.data.datasets[i].label) { 
-							text.push(chart.data.datasets[i].label); 
-						} 
-						text.push('</li>'); 
-					} 
-					text.push('</ul>'); 
-					return text.join(''); 
-				}  
+				},
+				legendCallback: function(chart) {
+					var text = [];
+					text.push('<ul class="' + chart.id + '-legend html-legend">');
+					for (var i = 0; i < chart.data.datasets.length; i++) {
+						text.push('<li><span style="background-color:' + chart.data.datasets[i].legendColor + '"></span>');
+						if (chart.data.datasets[i].label) {
+							text.push(chart.data.datasets[i].label);
+						}
+						text.push('</li>');
+					}
+					text.push('</ul>');
+					return text.join('');
+				}
 			}
 		});
 
