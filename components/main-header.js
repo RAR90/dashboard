@@ -105,7 +105,7 @@ export default function MainHeader() {
                 </div>
               </li>
               <li>
-                <a className="see-all" href="javascript:void(0);">See all notifications<i className="la la-angle-right"></i> </a>
+                <a className="see-all" href="#">See all notifications<i className="la la-angle-right"></i> </a>
               </li>
             </ul>
           </li>
