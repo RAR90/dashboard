@@ -1,24 +1,25 @@
 import Head from 'next/head'
-import Aside from '../components/aside.js'
+import MainHeader from '../components/main-header'
+import SideBar from '../components/sidebar'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className={styles.container}>
+
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <MainHeader />
+      <SideBar />
 
+      <main className={styles.main}>
 
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
-
-        <Aside />
-
 
         <p className={styles.description}>
           Get started by editing{' '}
