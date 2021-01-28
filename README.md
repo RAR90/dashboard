@@ -29,3 +29,9 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## TODO list
+
+- Convert all pages of template to Next.js view classess;
+- Convert all dummy data of charts to Next.js API;
+- Convert static dependencies to imports.
