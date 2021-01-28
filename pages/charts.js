@@ -12,9 +12,6 @@ export default function Home() {
         <link rel="icon" href="assets/img/favicon.ico" />
       </Head>
 
-      <MainHeader />
-      <SideBar />
-
       <div className="main-panel">
         <div className="content">
           <div className="container-fluid">
