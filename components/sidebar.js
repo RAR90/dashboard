@@ -21,7 +21,7 @@ export default function SideBar() {
             <div className="collapse in" id="collapseExample">
               <ul className="nav">
                 <li>
-                  <a href="#profile">
+                  <a href="profile">
                     <span className="link-collapse">My Profile</span>
                   </a>
                 </li>
@@ -280,7 +280,7 @@ export default function SideBar() {
                   </a>
                 </li>
                 <li>
-                  <a href="userprofile">
+                  <a href="profile">
                     <span className="sub-item">User Profile</span>
                   </a>
                 </li>
