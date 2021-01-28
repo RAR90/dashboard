@@ -62,42 +62,42 @@ export default function SideBar() {
             <div className="collapse" id="base">
               <ul className="nav nav-collapse">
                 <li>
-                  <a href="components/buttons">
+                  <a href="buttons">
                     <span className="sub-item">Buttons</span>
                   </a>
                 </li>
                 <li>
-                  <a href="components/gridsystem">
+                  <a href="gridsystem">
                     <span className="sub-item">Grid System</span>
                   </a>
                 </li>
                 <li>
-                  <a href="components/panels">
+                  <a href="panels">
                     <span className="sub-item">Panels</span>
                   </a>
                 </li>
                 <li>
-                  <a href="components/notifications">
+                  <a href="notifications">
                     <span className="sub-item">Notifications</span>
                   </a>
                 </li>
                 <li>
-                  <a href="components/sweetalert">
+                  <a href="sweetalert">
                     <span className="sub-item">Sweet Alert</span>
                   </a>
                 </li>
                 <li>
-                  <a href="components/line-awesome-icons">
+                  <a href="line-awesome-icons">
                     <span className="sub-item">Line Awesome Icons</span>
                   </a>
                 </li>
                 <li>
-                  <a href="components/flaticons">
+                  <a href="flaticons">
                     <span className="sub-item">Flaticons</span>
                   </a>
                 </li>
                 <li>
-                  <a href="components/typography">
+                  <a href="typography">
                     <span className="sub-item">Typography</span>
                   </a>
                 </li>
