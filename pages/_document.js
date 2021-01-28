@@ -60,6 +60,7 @@ class MyDocument extends Document {
           <script src="assets/js/ready.min.js"></script>
           <script src="assets/js/demo.js"></script>
           <script src="assets/js/pages/charts.js"></script>
+          <script src="assets/js/pages/calendar.js"></script>
         </body>
       </Html>
     )
