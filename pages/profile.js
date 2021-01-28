@@ -83,13 +83,13 @@ export default function Profile() {
                       <div className="col-md-6">
                         <div className="form-group form-group-default">
                           <label>Name</label>
-                          <input type="text" className="form-control" name="name" placeholder="Name" value="Rafael" />
+                          <input type="text" className="form-control" name="name" placeholder="Name" />
                         </div>
                       </div>
                       <div className="col-md-6">
                         <div className="form-group form-group-default">
                           <label>Email</label>
-                          <input type="email" className="form-control" name="email" placeholder="Name" value="hello@themekita.com" />
+                          <input type="email" className="form-control" name="email" placeholder="Name" />
                         </div>
                       </div>
                     </div>
@@ -97,7 +97,7 @@ export default function Profile() {
                       <div className="col-md-4">
                         <div className="form-group form-group-default">
                           <label>Birth Date</label>
-                          <input type="text" className="form-control" id="datepicker" name="datepicker" value="03/21/1998" placeholder="Birth Date" />
+                          <input type="text" className="form-control" id="datepicker" name="datepicker" placeholder="Birth Date" />
                         </div>
                       </div>
                       <div className="col-md-4">
@@ -112,7 +112,7 @@ export default function Profile() {
                       <div className="col-md-4">
                         <div className="form-group form-group-default">
                           <label>Phone</label>
-                          <input type="text" className="form-control" value="+62008765678" name="phone" placeholder="Phone" />
+                          <input type="text" className="form-control" name="phone" placeholder="Phone" />
                         </div>
                       </div>
                     </div>
@@ -120,7 +120,7 @@ export default function Profile() {
                       <div className="col-md-12">
                         <div className="form-group form-group-default">
                           <label>Address</label>
-                          <input type="text" className="form-control" value="st Merdeka Putih, Jakarta Indonesia" name="address" placeholder="Address" />
+                          <input type="text" className="form-control" name="address" placeholder="Address" />
                         </div>
                       </div>
                     </div>
