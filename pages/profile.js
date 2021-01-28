@@ -27,7 +27,7 @@ export default function Profile() {
                   </div>
                   <div className="card-body">
                     <div className="user-profile text-center">
-                      <div className="name">Hizrian, 19</div>
+                      <div className="name">Rafael, 19</div>
                       <div className="job">Frontend Developer</div>
                       <div className="desc">A man who hates loneliness</div>
                       <div className="social-media">
@@ -83,7 +83,7 @@ export default function Profile() {
                       <div className="col-md-6">
                         <div className="form-group form-group-default">
                           <label>Name</label>
-                          <input type="text" className="form-control" name="name" placeholder="Name" value="Hizrian" />
+                          <input type="text" className="form-control" name="name" placeholder="Name" value="Rafael" />
                         </div>
                       </div>
                       <div className="col-md-6">

@@ -116,7 +116,7 @@ export default function MainHeader() {
                 <div className="user-box">
                   <div className="u-img"><img src="assets/img/profile.jpg" alt="image profile" /></div>
                   <div className="u-text">
-                    <h4>Hizrian</h4>
+                    <h4>Rafael</h4>
                     <p className="text-muted">hello@vercel.com</p><a href="profile" className="btn btn-rounded btn-danger btn-sm">View Profile</a>
                   </div>
                 </div>

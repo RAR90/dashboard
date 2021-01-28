@@ -11,7 +11,7 @@ export default function SideBar() {
           <div className="info">
             <a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
               <span>
-                Hizrian
+                Rafael
                 <span className="user-level">Administrator</span>
                 <span className="caret"></span>
               </span>

@@ -478,7 +478,7 @@ export default function GridSystem() {
                       <ul className="tasks-list">
                         <li>
                           <label className="custom-checkbox custom-control checkbox-secondary">
-                            <input type="checkbox" checked="" className="custom-control-input" /><span className="custom-control-label">Planning new project structure</span>
+                            <input type="checkbox" className="custom-control-input" /><span className="custom-control-label">Planning new project structure</span>
                             <span className="task-action">
                               <a href="gridsystem.html#" className="link text-danger">
                                 <i className="flaticon-interface-5"></i>
@@ -584,7 +584,7 @@ export default function GridSystem() {
                         <li>
                           <span className="item-label">Enable Notifications</span>
                           <div className="item-control">
-                            <input type="checkbox" checked data-toggle="toggle" data-onstyle="primary" data-style="btn-round" />
+                            <input type="checkbox" data-toggle="toggle" data-onstyle="primary" data-style="btn-round" />
                           </div>
                         </li>
                         <li>
@@ -602,7 +602,7 @@ export default function GridSystem() {
                         <li>
                           <span className="item-label">SMS Alert</span>
                           <div className="item-control">
-                            <input type="checkbox" checked data-toggle="toggle" data-onstyle="primary" data-style="btn-round" />
+                            <input type="checkbox" data-toggle="toggle" data-onstyle="primary" data-style="btn-round" />
                           </div>
                         </li>
                       </ul>
@@ -612,19 +612,19 @@ export default function GridSystem() {
                         <li>
                           <span className="item-label">Email Notifications</span>
                           <div className="item-control">
-                            <input type="checkbox" checked data-toggle="toggle" data-onstyle="primary" data-style="btn-round" />
+                            <input type="checkbox" data-toggle="toggle" data-onstyle="primary" data-style="btn-round" />
                           </div>
                         </li>
                         <li>
                           <span className="item-label">New Comments</span>
                           <div className="item-control">
-                            <input type="checkbox" checked data-toggle="toggle" data-onstyle="primary" data-style="btn-round" />
+                            <input type="checkbox" data-toggle="toggle" data-onstyle="primary" data-style="btn-round" />
                           </div>
                         </li>
                         <li>
                           <span className="item-label">Chat Messages</span>
                           <div className="item-control">
-                            <input type="checkbox" checked data-toggle="toggle" data-onstyle="primary" data-style="btn-round" />
+                            <input type="checkbox" data-toggle="toggle" data-onstyle="primary" data-style="btn-round" />
                           </div>
                         </li>
                         <li>
@@ -636,7 +636,7 @@ export default function GridSystem() {
                         <li>
                           <span className="item-label">New Tasks</span>
                           <div className="item-control">
-                            <input type="checkbox" checked data-toggle="toggle" data-onstyle="primary" data-style="btn-round" />
+                            <input type="checkbox" data-toggle="toggle" data-onstyle="primary" data-style="btn-round" />
                           </div>
                         </li>
                       </ul>
