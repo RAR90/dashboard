@@ -1,4 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
+import MainHeader from '../components/main-header'
+import SideBar from '../components/sidebar'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -23,6 +25,10 @@ class MyDocument extends Document {
         <body>
 
           <div class="wrapper">
+
+            <MainHeader />
+            <SideBar />
+
             <Main />
             <NextScript />
           </div>
@@ -52,8 +58,8 @@ class MyDocument extends Document {
           <script src="assets/js/plugin/select2/select2.full.min.js"></script>
           <script src="assets/js/plugin/sweetalert/sweetalert.min.js"></script>
           <script src="assets/js/ready.min.js"></script>
-          <script src="assets/js/setting-demo.js"></script>
           <script src="assets/js/demo.js"></script>
+          <script src="assets/js/pages/charts.js"></script>
         </body>
       </Html>
     )

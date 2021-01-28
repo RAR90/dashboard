@@ -1,6 +1,4 @@
 import Head from 'next/head'
-import MainHeader from '../components/main-header'
-import SideBar from '../components/sidebar'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,9 +9,6 @@ export default function Home() {
         <title>Next.js Dashboard</title>
         <link rel="icon" href="assets/img/favicon.ico" />
       </Head>
-
-      <MainHeader />
-      <SideBar />
 
       <div className="main-panel">
         <div className="content">
